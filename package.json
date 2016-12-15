@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "populate": "node ./commands/populate",
+    "doc": "./node_modules/.bin/jsdoc -p -r -c ./conf.json ./"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "body-parser": "~1.15.2",
+    "busca-cep": "^0.3.5",
+    "cache-manager": "^2.2.0",
+    "cache-manager-redis": "^0.3.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "jsdoc": "^3.4.3",
+    "lodash": "^4.17.2",
+    "mongoose": "^4.7.2",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  }
+}
