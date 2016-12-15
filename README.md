@@ -2,10 +2,10 @@
 CEP Finder API using Node.js, Redis and MongoDB.
 
 #How to set up
-- Install Node.js https://nodejs.org/en/download/
+- Install Node.js (6.x or higher)  https://nodejs.org/en/download/
 - Install MongoDB https://docs.mongodb.com/getting-started/shell/installation/
-- Install Redishttps://redis.io/download
-- Install node dependencies
+- Install Redis https://redis.io/download
+- Install the Node.js dependencies.
 ```
 npm install
 ```
