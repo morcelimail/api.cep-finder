@@ -19,3 +19,10 @@ npm start
 ```
 - Open your web browser on: http://localhost:3000/api/debug
 - Enjoy ;)
+
+#More
+- Generating documentation
+```
+npm run doc
+```
+The folder <path_to_project>/out will be generated.
