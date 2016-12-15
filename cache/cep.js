@@ -48,7 +48,16 @@ class CepCache {
         if (error)
           return reject('Error on try to get cache by CEP.');
 
-        resolve(result ? JSON.parse(result) : null);
+        let json = null;
+
+        try {
+          json = JSON.parse(result);
+        }
+        catch (e) {
+          json = null;
+        }
+
+        resolve(json);
       });
     });
   }
@@ -65,7 +74,16 @@ class CepCache {
         if (error)
           return reject('Error on try to get cache by Phone Number.');
 
-        resolve(result ? JSON.parse(result) : null);
+        let json = null;
+
+        try {
+          json = JSON.parse(result);
+        }
+        catch (e) {
+          json = null;
+        }
+
+        resolve(json);
       });
     });
   }
