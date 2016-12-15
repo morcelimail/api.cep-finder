@@ -26,3 +26,8 @@ npm start
 npm run doc
 ```
 The folder <path_to_project>/out will be generated.
+
+#Info
+This project was made by Bruno Morceli.
+- Email: morcelimail@gmail.com, pirofagista@gmail.com
+- Skype: bruno.morceli
