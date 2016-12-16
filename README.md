@@ -28,9 +28,9 @@ npm run doc
 The folder <path_to_project>/out will be generated.
 
 #Used technologies:
--Node.JS
--MongoDB
--Redis
+- Node.JS
+- MongoDB
+- Redis
 
 #Why Node.JS?
 Node.js is a growing technology with fast results and low learning curve.
@@ -48,14 +48,14 @@ Let's suppose that a search by CEP was made. The system will check in the cache.
 
 #Strong points
 
--Scalability - This model was made based that the system probably will be distributed with variable size. So he's divided into three parts: the system itself, memory cache and persistence. Everyone can be used with clusters or load balances without big effort.
--Easy to change/create - The server uses Javascript and this way is easy to teach or find collaborators.
--Very active web community - Is easy find good stuff about it and also, this shows that the technology will be kept during the lifecycle system.
+- Scalability - This model was made based that the system probably will be distributed with variable size. So he's divided into three parts: the system itself, memory cache and persistence. Everyone can be used with clusters or load balances without big effort.
+- Easy to change/create - The server uses Javascript and this way is easy to teach or find collaborators.
+- Very active web community - Is easy find good stuff about it and also, this shows that the technology will be kept during the lifecycle system.
 
 #Weak points
--Node.JS offers only 1400MB of memory for every process. So if something is too big (greater than 1.4GB) Is necessary to use another technology like C++, Python or even GO. But this is a problem that happens very rarely in web APIs.
--Hard to do the developer to follow the directives once that we're using Javascript. JS might be the good or bad guy, depending on the developer.
--Could be hard to track a bug once that the system involves a big number of endpoints to make a search.
+- Node.JS offers only 1400MB of memory for every process. So if something is too big (greater than 1.4GB) Is necessary to use another technology like C++, Python or even GO. But this is a problem that happens very rarely in web APIs.
+- Hard to do the developer to follow the directives once that we're using Javascript. JS might be the good or bad guy, depending on the developer.
+- Could be hard to track a bug once that the system involves a big number of endpoints to make a search.
 
 
 #Contact Info.
